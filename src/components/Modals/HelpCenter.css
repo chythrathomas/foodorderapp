@@ -1,0 +1,33 @@
+.helpCenter{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    padding: 20px;
+   
+    }
+    /* .helpCenter Row {
+        display: flex;
+        justify-content: space-between;
+    } */
+    h2 {
+        text-align: center;  
+    }
+    .modalBackground{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(169, 156, 156, 0.5);/* Semi-transparent black background */
+        padding: 20px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+      }
+      .modalContainer{
+          /* display:flex;
+       flex-direction: column; */
+        background-color: white;
+      }
+    

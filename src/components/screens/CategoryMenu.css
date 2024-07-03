@@ -1,0 +1,12 @@
+.title{
+    margin:30px 0px;
+}
+.categoryTitle{
+    margin-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+.catMenuList{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

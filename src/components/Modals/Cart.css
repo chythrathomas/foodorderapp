@@ -1,0 +1,91 @@
+
+.modalBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(169, 156, 156, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  .cartContainer{
+    background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+  padding: 20px;
+   }
+@media(max-width:768px) {
+  .cartContainer {
+    max-width: 100%;
+    margin:0 10px;
+  }
+}
+
+  .cartRows {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 40px;
+  }
+  h2 {
+    padding-top: 0px;
+  }
+  .cartRows .colHead {
+    font-size: 24px;
+    margin-right: 30px;
+  }
+  
+  .cartItem {
+    font-weight: bold;
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #ccc; 
+    padding: 20px 0;
+  }
+  .cartItem p {
+margin-bottom: 2px;
+  }
+ 
+  .cartBox{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  .button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .proceedButton {
+    background-color: rgb(63, 169, 63);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .proceedButton:hover {
+    background-color:rgb(38, 142, 38)
+  }
+.buttonControl button {
+  width: 40px ;
+  height:30px;
+  border: none;
+border-radius: 8px;
+background-color: rgb(63, 169, 63);
+color:white;
+}
+.buttonControl button:hover{
+  background-color: rgb(39, 107, 39);
+}
+.buttonControl span {
+  margin:0px 4px;
+}

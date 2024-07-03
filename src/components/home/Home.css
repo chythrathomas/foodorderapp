@@ -1,0 +1,24 @@
+.captionSection{
+    background-color: #fff; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; 
+    margin-top: 0px;
+    height:200px;
+    background-color: rgb(236, 253, 211);
+    color:rgb(19, 207, 19)  !important; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    /* background: linear-gradient(to bottom, white, #cffbcf); 
+    transition: background 0.5s ease; */
+  }
+.captionImage{
+height:150px;
+width:150px;
+border-radius: 40px; 
+}
+  h2 {
+    padding-top: 50px;
+  }
